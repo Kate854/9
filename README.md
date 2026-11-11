@@ -14,8 +14,9 @@ npm run dev
 - `npm test` — 33 теста бизнес-логики и выбора подарков.
 - `npm run build` — проверка TypeScript и сборка одного автономного HTML.
 - `npm run preview` — просмотр production-сборки.
+- `app/index.html` — точка входа исходного приложения для Vite; корневой `index.html` — автономная публикация.
 - `prototype.html` — готовый HTML для скачивания и открытия браузером без сервера. React, SVG, CSS и логика встроены.
-- `docs/index.html` — идентичная копия для публикации. После сборки обновите обе копии и файл `index.html` в ветке `gh-pages`.
+- `docs/index.html` — идентичная копия для публикации. После сборки скопируйте `dist/index.html` в корневой `index.html`, `prototype.html` и `docs/index.html`, затем обновите файл `index.html` ветки `gh-pages`.
 
 ## Сценарий макетов
 
